@@ -55,6 +55,20 @@ h2 {
   .nav-item {
     float: left;
   }
+
+  .nav-item-right {
+    margin-top: 3px;
+    margin-right: 10px;
+    float: right;
+  }
+
+  .item-right {
+    background-color: gray;
+  }
+
+  .item-right:hover {
+    background-color: darkgray;
+  }
   
   .nav-item a {
     display: block;
@@ -63,20 +77,8 @@ h2 {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  .nav-item div {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
 
   .nav-item a:hover {
-    background-color: black;
-  }
-  
-  .nav-item div:hover {
     background-color: black;
   }
 
@@ -154,6 +156,43 @@ h2 {
     content: url(K.jpg);
   }
 
+  #table_pic_1 {
+    content: url(https://i.discogs.com/Gm1YGdDbxBpK0OBxMkgKyFc9-NHAphQVYiQkRZqPB8M/rs:fill/g:sm/q:40/h:100/w:100/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMzAy/NDQtMTYzNTY3NDgy/OC0xNTU1LmpwZWc.jpeg);
+  }
+
+  #table_pic_2 {
+    content: url(https://i.discogs.com/xWVT717S0F8f9WIohLCJbtnmrm9pHOmw1VE8jDn8Uu8/rs:fill/g:sm/q:40/h:100/w:100/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MDky/ODgtMTMzMzI3NTQ1/MC5qcGVn.jpeg);
+  }
+
+  #table_pic_3 {
+    content: url(https://i.discogs.com/f75IaM3zLutmE9sQMQSsU-NCB2udaWo2Bdj3SRiYqfo/rs:fill/g:sm/q:40/h:100/w:100/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzOTMy/NDItMTQxODEzMTQ5/NC02OTE5LmpwZWc.jpeg);
+  }
+
+  #table_pic_4 {
+    content: url(https://i.discogs.com/Zoow8qktK19jZzd2-qdSuAUymb8tovfCSDsHoqOKHO0/rs:fill/g:sm/q:40/h:100/w:100/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODU4/OTY2LTE1OTkxMjA3/MTQtNDQ4Ny5qcGVn.jpeg);
+  }
+
+  #table_pic_5 {
+    content: url(https://i.discogs.com/KMhaz4Gi9Sg8TBMjImTyOhg9qwGcV5apR5wH68eD7Xg/rs:fill/g:sm/q:40/h:100/w:100/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTMy/ODc3LTE1OTMxNDYz/NzMtNzE0NC5qcGVn.jpeg);
+  }
+
+  #schedule_pic_1 {
+    align-self: center;
+    content: url(Schedule1.png);
+  }
+
+  #schedule_pic_2 {
+    align-self: center;
+    content: url(Schedule2.png);
+  }
+
+  .schedule_container {
+    display: flex;
+    width: 50%;
+    padding-left: 25%;
+    justify-content: space-between;
+  }
+
   /* Paragraphs */
 
   .left_paragraph {
@@ -200,6 +239,7 @@ h2 {
   /* footer */
 
   footer {
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: rgb(39, 36, 36);
@@ -216,4 +256,54 @@ h2 {
   footer {
     padding-top: 8px;
     font-size: 200%;
+  }
+
+  /* table */
+
+  table {
+      width: 60%;
+      margin-left: 20%;
+      border-color: darkorange;
+      position: absolute;
+  }
+
+  .table_text {
+    padding-top: 27px;
+  }
+
+  table p {
+    display: inline;
+    position: absolute;
+  }
+
+  /* songs */
+
+  .song {
+    height: 40px;
+  }
+
+  /* video */
+
+  video {
+    border: 4px double darkorange;
+    width: 100%;
+    align-self: center;
+    align-items: center;
+  }
+
+  .video-container {
+    padding-left: 25%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+
+  /* dropdown */
+
+  .menu-icon {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
   }
