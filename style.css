@@ -177,11 +177,13 @@ h2 {
   }
 
   #schedule_pic_1 {
+    width: 50%;
     align-self: center;
     content: url(Schedule1.png);
   }
 
   #schedule_pic_2 {
+    width: 50%;
     align-self: center;
     content: url(Schedule2.png);
   }
@@ -194,6 +196,10 @@ h2 {
   }
 
   /* Paragraphs */
+
+  div {
+    text-indent: 12px;
+  }
 
   .left_paragraph {
     flex-grow: 0; 
@@ -261,8 +267,7 @@ h2 {
   /* table */
 
   table {
-      width: 60%;
-      margin-left: 20%;
+      width: 100%;
       border-color: darkorange;
       position: absolute;
   }
@@ -274,6 +279,7 @@ h2 {
   table p {
     display: inline;
     position: absolute;
+    width: 10%;
   }
 
   /* songs */
